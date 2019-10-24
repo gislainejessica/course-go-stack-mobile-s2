@@ -1,14 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { View, Text } from 'react-native'
+import { StatusBar } from 'react-native'
 import './config/Reactotron'
+import Routes from './routes'
 
 const index = () => {
-  console.tron.log('oioioi')
   return (
-    <View>
-      <Text> Hello </Text>
-    </View>
+    <>
+    <StatusBar barStyle='light-content' backgroundColor='#7157c1'/>
+   <Routes />
+  </>
   )
 }
 
