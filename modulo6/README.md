@@ -16,5 +16,6 @@ __Estlizando Componentes__
 ---
 2) ` yarn add react-native-vector-icons`[Npm: Vector Icons](https://www.npmjs.com/package/react-native-vector-icons)
   - Depois rodar `react-native run-android` novamente.
-
+---
+`yarn add axios`
 
