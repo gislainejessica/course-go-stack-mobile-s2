@@ -7,9 +7,9 @@ import Routes from './routes'
 const index = () => {
   return (
     <>
-    <StatusBar barStyle='light-content' backgroundColor='#7157c1'/>
-   <Routes />
-  </>
+      <StatusBar barStyle='light-content' backgroundColor='#7157c1'/>
+      <Routes />
+    </>
   )
 }
 

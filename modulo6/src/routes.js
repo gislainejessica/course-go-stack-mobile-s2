@@ -8,7 +8,8 @@ const Routes = createAppContainer(
   createStackNavigator({
     Main,
     User
-  },{
+  },
+  {
     headerLayoutPreset:'center',
     headerBackTitleVisible: false,
     defaultNavigationOptions:{
@@ -18,7 +19,8 @@ const Routes = createAppContainer(
       },
       headerTintColor:'#FFF'
     }
-
-  })
+  }
+  )
 )
+
 export default Routes
