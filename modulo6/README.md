@@ -24,3 +24,6 @@ __Fazendo armazenamento de dados localmento usando o async-storage__
 1) `yarn add @react-native-community/async-storage`[Async Storage](https://github.com/react-native-community/async-storage)
   - Nesse caso precisamos rodar `react-native run-android` mais uma vez.
 
+__Prop-types e navegação entre telas__
+  - `yarn add prop-types`
+
