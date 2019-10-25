@@ -20,3 +20,7 @@ __Estlizando Componentes__
 __Fazendo concexão com a api do Github__
 1) `yarn add axios`
 
+__Fazendo armazenamento de dados localmento usando o async-storage__
+1) `yarn add @react-native-community/async-storage`[Async Storage](https://github.com/react-native-community/async-storage)
+  - Nesse caso precisamos rodar `react-native run-android` mais uma vez.
+
