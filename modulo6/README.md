@@ -1,29 +1,47 @@
-__Código Bonito__
+#### __Código Bonito__
 1) `yarn add eslint -D`
 2) `yarn eslint --init`
 3) `yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D`
 ---
 4) `❯ yarn add reactotron-react-native`
+
 ---
-__Navegação entre telas__
+
+### __Navegação entre telas__
 [React Navigation](https://reactnavigation.org/docs/en/getting-started.html)
+
 1) `yarn add react-navigation`
 2) `yarn add react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23`
+
+  - Seguir os passos do site e no final rodar `react-native run-android` pra finlizar as configurações.
+
 ---
-__Estlizando Componentes__
+
+### __Estlizando Componentes__
 [Styled Components](https://www.styled-components.com)
 1) `yarn add styled-components`
+
+2) ` yarn add react-native-vector-icons`
+
+    [Listagem de icones disponiveis nessa biblioteca](https://oblador.github.io/react-native-vector-icons/)
+  - Feito os passos anterioress rodar `react-native run-android` novamente.
+
 ---
-2) ` yarn add react-native-vector-icons`[Npm: Vector Icons](https://www.npmjs.com/package/react-native-vector-icons)
-  - Depois rodar `react-native run-android` novamente.
----
-__Fazendo concexão com a api do Github__
+
+### __Fazendo concexão com a api do Github__
+Utilizando o axios para fazer as conexões com os servidores, como já é de praxe.
 1) `yarn add axios`
 
-__Fazendo armazenamento de dados localmento usando o async-storage__
-1) `yarn add @react-native-community/async-storage`[Async Storage](https://github.com/react-native-community/async-storage)
-  - Nesse caso precisamos rodar `react-native run-android` mais uma vez.
+---
 
-__Prop-types e navegação entre telas__
+### __Fazendo armazenamento de dados localmento usando o [AsyncStorage](https://github.com/react-native-community/async-storage)__
+
+- ` yarn add @react-native-community/async-storage`
+  - `react-native run-android ` para finalizar.
+
+---
+
+### __Prop-types__
+- Usando prop-types para definiar algumas propriedades para as props do nosso componente
   - `yarn add prop-types`
 
