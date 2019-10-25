@@ -78,7 +78,7 @@ export const ProfileButton =  styled(RectButton)`
   justify-content: center;
   align-items: center;
   height: 36px;
-  opacity: ${props => (props.loading ? 0.7 : 1  )}
+  opacity: ${props => (props.loading ? 0.7 : 1  )};
 `
 
 export const ProfileButtonText = styled.Text`
@@ -86,5 +86,4 @@ export const ProfileButtonText = styled.Text`
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
-
 `
